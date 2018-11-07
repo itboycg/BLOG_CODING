@@ -1,0 +1,11 @@
+#oracle
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:bolg
+    username: bloguser
+    password: blogpwd
+
+#配置html的访问路径
+  thymeleaf:
+    prefix: classpath:/templates/
